@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Левин Иван - веб разработчик</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -31,9 +33,12 @@
     
     <div class="profile">
       <h3>ОБО МНЕ</h3>
+       <div class="line">
+           <img src="img/orange_line.jpg" alt="">
+       </div>
       
        <div class="portrait">
-           <img src="" alt="Тут моё фото">
+           <img src="img/photo.png" alt="">
        </div>
           
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Expedita animi placeat quas autem dolores temporibus, asperiores, inventore unde est totam.</p>
@@ -46,10 +51,13 @@
 
     <div class="my_skills">
         <h3>ЧТО Я УМЕЮ</h3>
+        <div class="line">
+           <img src="img/orange_line.jpg" alt="">
+        </div>
         <div class="skill_case">
             <div class="skill_form">
                <div class="image">
-                   <img src="" alt="тут значок - Веб дизайн">
+                   <img src="img/note_book.png" alt="тут значок - Веб дизайн">
                </div>
                <h4>Веб дизайн</h4>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Iusto sed facilis enim consequatur inventore itaque, <br>magni vitae esse rem impedit.</p>               
@@ -57,7 +65,7 @@
             
             <div class="skill_form">
                <div class="image">
-                   <img src="" alt="тут значок - Разработка">
+                   <img src="img/tag.png" alt="тут значок - Разработка">
                </div>
                <h4>Разработка</h4>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Iusto sed facilis enim consequatur inventore itaque, <br>magni vitae esse rem impedit.</p>
@@ -65,7 +73,7 @@
             
             <div class="skill_form">
                <div class="image">
-                   <img src="" alt="тут значок - СЕО оптимизация">
+                   <img src="img/rocket.png" alt="тут значок - СЕО оптимизация">
                </div>
                <h4>СЕО оптимизация</h4>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Iusto sed facilis enim consequatur inventore itaque, <br>magni vitae esse rem impedit.</p>
@@ -73,7 +81,7 @@
             
             <div class="skill_form">
                <div class="image">
-                   <img src="" alt="тут значок - маркетинг">
+                   <img src="img/megafone.png" alt="тут значок - маркетинг">
                </div>
                <h4>Маркетинг</h4>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Iusto sed facilis enim consequatur inventore itaque, <br>magni vitae esse rem impedit.</p>              
@@ -83,11 +91,19 @@
     
     <div class="cases">
         <h3>КЕЙСЫ</h3>
+        <div class="line">
+           <img src="img/orange_line.jpg" alt="">
+        </div>
+        <div class="hight_text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero perferendis, maxime eaque eos odio voluptates dolorem facilis sed omnis reprehenderit eveniet veritatis obcaecati sapiente officiis! Illum, praesentium id repellendus! Et?</p></div>
+        <div class="widgit"><img src="img/widgit.jpg" alt=""></div>
         <div>
-            <p><big><b>CLIENT:</b></big><br><smal>какая-то комапания</smal></p>
-            <p><big><b>WEB-SITE:</b></big><br><smal>www.ssd.com</smal></p>
+           <div class="company_block">            
+               <h5>CLIENT:</h5><p>какая-то комапания</p>
+               <h5>WEB-SITE:</h5><p>www.ssd.com</p>
+            </div>
+
             <table>
-                <tr><th><span><b>Название проекта</b></span></th></tr>
+                <tr><th><h5>Название проекта</h5></th></tr>
                 <tr><td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Accusamus aperiam eos incidunt impedit, sapiente nesciunt nihil ducimus libero <br>magnam optio debitis velit quos dicta doloremque ut, <br>consequatur hic voluptatibus assumenda.</td></tr>
             </table>
         </div>
@@ -96,7 +112,7 @@
         <h3>Расчёт стоимости</h3>
         <div class="fields">
             <h4>Тип сайта</h4>
-            <select name="site_type" id="list" >
+            <select name="site_type" id="list" placeholder="Выберите пункт">
                 <option value="type_1">Тип 1</option>
                 <option value="type_2">Тип 2</option>
                 <option value="type_3">Тип 3</option>
@@ -115,33 +131,36 @@
             </select>
         </div>
         <hr>
-        <div><span>Сроки</span><span> 0</span></div>
-        <div><span>Стоимость</span><span> 0</span></div>
+        <div><span class="val">Сроки</span><span> 0</span></div>
+        <div><span class="val">Стоимость</span><span> 0</span ></div>
     </div>
     
     <div class="statistics">
         <h3>НЕМНОГО СТАТИСТИКИ</h3>
+        <div class="line">
+           <img src="img/orange_line.jpg" alt="">
+        </div>
         <div class="statistics_case">
            <div class="statistics_form">
-               <img src="" alt="тут значок - Счастливых клиентов">
+               <img src="img/smile.png" alt="тут значок - Счастливых клиентов">
                <h2>120</h2>
                <p>Счастливых клиентов</p>
            </div>
            
            <div class="statistics_form">
-               <img src="" alt="тут значок - Часов работы">
+               <img src="img/orange_tag.png" alt="тут значок - Часов работы">
                <h2>4,600</h2>
                <p>Часов работы</p>
            </div>
            
            <div class="statistics_form">
-               <img src="" alt="тут значок - Проектов завершено">
+               <img src="img/check_box.png" alt="тут значок - Проектов завершено">
                <h2>340</h2>
                <p>Проетов завершено</p>
            </div>
            
            <div class="statistics_form">
-               <img src="" alt="тут значок - Наград получено">
+               <img src="img/cup.png" alt="тут значок - Наград получено">
                <h2>23</h2>
                <p>Наград получено</p>
            </div>
@@ -150,33 +169,42 @@
     
     <div class="responses">
         <h3>ОТЗЫВЫ</h3>
+        <div class="line">
+           <img src="img/orange_line.jpg" alt="">
+        </div>
         <div class="portrait">
-           <img src="" alt="Тут фото клиента">
+           <img src="img/photo_client.png" alt="Тут фото клиента">
        </div>
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quae sapiente, delectus dolor tenetur obcaecati quis voluptate amet labore asperiores tempore quo beatae voluptates repudiandae fuga, incidunt mollitia doloribus, optio!</p>
        <p><b>Михаил</b>, Ген-Директор Газпрома</p>
-       <input type="radio" name="radio">
-       <input type="radio" name="radio">
-       <input type="radio" name="radio">
+       <div class="radio">
+           <input type="radio" name="radio">
+           <input type="radio" name="radio">
+           <input type="radio" name="radio">
+       </div>
+
         
     </div>
     
     <div class="my_contacts">
         <h3>МОИ КОНТАКТЫ</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, tempora.</p>
+        <div class="line">
+           <img src="img/orange_line.jpg" alt="">
+        </div>
+        <p class="string_top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, tempora.</p>
         <div class="contact">
-            <div class="position">
-                <img src="" alt="тут значок - каты">
+            <div class="contact_f">
+                <img src="img/geo.png" alt="тут значок - каты">
                 <p>Санкт-петербург <br>Невский</p>
             </div>
             
-            <div class="email">
-                <img src="" alt="тут значок - емаил">
+            <div class="contact_f">
+                <img src="img/mail.png" alt="тут значок - емаил">
                 <p>go@mail.com</p>
             </div>
                               
-            <div class="telephone">
-                <img src="" alt="тут значок - телефон">
+            <div class="contact_f">
+                <img src="img/phone.png" alt="тут значок - телефон">
                 <p>+7999999-99-99</p>
             </div>
         </div>
@@ -186,9 +214,9 @@
             <input type="text" placeholder="Email">
         </div>
         <div class="message">
-            <input type="text" placeholder="Cообщение">
+            <input type="texterea" placeholder="Cообщение">
         </div>
-        <input type="submit" value="Отправить">
+        <input class="btn" type="submit" value="Отправить">
     </div>
     
     <div class="map">
